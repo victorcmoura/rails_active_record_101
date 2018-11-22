@@ -9,3 +9,30 @@ Topics:
 - Querying
 - One-to-many Associations
 - Model validation and dependency
+
+Commands:
+
+- Creating a project
+```bash
+rails new blog
+```
+
+- Creating a project
+```bash
+rails g model Article title:string text:text
+```
+
+- Creating a project
+```bash
+rails db:migrate
+```
+
+- Creating a project
+```bash
+rails g migration AddLikesToArticles likes:integer
+```
+
+- Creating a project
+```bash
+rails g model Comment commenter:string body:text article:references
+```
