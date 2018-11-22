@@ -17,22 +17,22 @@ Commands:
 rails new blog
 ```
 
-- Creating a project
+- Creating Article model
 ```bash
 rails g model Article title:string text:text
 ```
 
-- Creating a project
+- Migrates
 ```bash
 rails db:migrate
 ```
 
-- Creating a project
+- Creating 'likes' attribute into articles database table
 ```bash
 rails g migration AddLikesToArticles likes:integer
 ```
 
-- Creating a project
+- Creating Comment model
 ```bash
 rails g model Comment commenter:string body:text article:references
 ```
