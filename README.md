@@ -36,3 +36,8 @@ rails g migration AddLikesToArticles likes:integer
 ```bash
 rails g model Comment commenter:string body:text article:references
 ```
+
+- Creating welcome controller
+```bash
+rails generate controller Welcome index
+```
